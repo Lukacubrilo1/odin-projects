@@ -33,7 +33,6 @@ li {
 .main-header {
     display: flex;
     justify-content: space-between;
-    
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -42,7 +41,7 @@ li {
     align-self: center;
 }
 h1 {
-    font-size: 48px;
+    font-size: 54px;
     margin-bottom: 10px;
     line-height: 1;
 }
@@ -65,22 +64,24 @@ button {
 .info {
     background-color: white;
     padding: 100px 0;
+    
 }
 h2 {
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .wrapper {
 display: flex;
-
 justify-content: space-evenly;
-
-
+}
+.wrap-container {
+    padding-bottom: 50px;
 }
 .card {
     width: 200px;
+    height: auto;
 }
 .card-img {
     width: 100%;
@@ -92,4 +93,47 @@ justify-content: space-evenly;
     text-align: center;
     color: #1f293780;
 
+}
+
+
+.testimonials {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    
+}
+.testimonial-para {
+color: #1F2937;
+font-style: italic;
+font-size: 36px;
+width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+
+
+
+.cta {
+    padding: 100px 0;
+}
+
+.cta-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+h3 {
+    color: white;
+    font-size: 24px;
+    
+}
+.cta-div button {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+    
 }

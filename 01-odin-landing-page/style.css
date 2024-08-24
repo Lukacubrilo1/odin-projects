@@ -40,9 +40,12 @@ li {
     max-width: 500px;
     align-self: center;
 }
+.header p {
+    line-height: 1.4;
+}
 h1 {
-    font-size: 54px;
-    margin-bottom: 10px;
+    font-size: 60px;
+    margin-bottom: 20px;
     line-height: 1;
 }
 button {
@@ -136,4 +139,12 @@ h3 {
     margin-bottom: 10px;
    
     
+}
+footer {
+    background-color: #1F2937;
+    padding: 50px 0;
+}
+.footer-info {
+text-align: center;
+color: white;
 }
